@@ -8,7 +8,7 @@ import { DaterangepickerConfig } from "ng2-daterangepicker";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular9';
+  title = 'angular-daterangepicker';
 
   public chosenDate: any = {
     start: moment().subtract(12, 'month'),

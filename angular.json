@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"angular9": {
+		"angular-daterangepicker": {
 			"projectType": "application",
 			"schematics": {},
 			"root": "",
@@ -13,7 +13,7 @@
 				"build": {
 					"builder": "@angular-devkit/build-angular:browser",
 					"options": {
-						"outputPath": "dist/angular9",
+						"outputPath": "dist/angular-daterangepicker",
 						"index": "src/index.html",
 						"main": "src/main.ts",
 						"polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"options": {
-						"browserTarget": "angular9:build"
+						"browserTarget": "angular-daterangepicker:build"
 					},
 					"configurations": {
 						"production": {
-							"browserTarget": "angular9:build:production"
+							"browserTarget": "angular-daterangepicker:build:production"
 						}
 					}
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"browserTarget": "angular9:build"
+						"browserTarget": "angular-daterangepicker:build"
 					}
 				},
 				"test": {
@@ -111,11 +111,11 @@
 					"builder": "@angular-devkit/build-angular:protractor",
 					"options": {
 						"protractorConfig": "e2e/protractor.conf.js",
-						"devServerTarget": "angular9:serve"
+						"devServerTarget": "angular-daterangepicker:serve"
 					},
 					"configurations": {
 						"production": {
-							"devServerTarget": "angular9:serve:production"
+							"devServerTarget": "angular-daterangepicker:serve:production"
 						}
 					}
 				}
