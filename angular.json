@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"angular-daterangepicker": {
+		"angular-daterangepicker-demo": {
 			"projectType": "application",
 			"schematics": {},
 			"root": "",
@@ -121,38 +121,38 @@
 				}
 			}
 		},
-		"ng2-daterangepicker": {
+		"angular-daterangepicker": {
 			"projectType": "library",
-			"root": "projects/ng2-daterangepicker",
-			"sourceRoot": "projects/ng2-daterangepicker/src",
+			"root": "projects/angular-daterangepicker",
+			"sourceRoot": "projects/angular-daterangepicker/src",
 			"prefix": "lib",
 			"architect": {
 				"build": {
 					"builder": "@angular-devkit/build-angular:ng-packagr",
 					"options": {
-						"tsConfig": "projects/ng2-daterangepicker/tsconfig.lib.json",
-						"project": "projects/ng2-daterangepicker/ng-package.json"
+						"tsConfig": "projects/angular-daterangepicker/tsconfig.lib.json",
+						"project": "projects/angular-daterangepicker/ng-package.json"
 					},
 					"configurations": {
 						"production": {
-							"tsConfig": "projects/ng2-daterangepicker/tsconfig.lib.prod.json"
+							"tsConfig": "projects/angular-daterangepicker/tsconfig.lib.prod.json"
 						}
 					}
 				},
 				"test": {
 					"builder": "@angular-devkit/build-angular:karma",
 					"options": {
-						"main": "projects/ng2-daterangepicker/src/test.ts",
-						"tsConfig": "projects/ng2-daterangepicker/tsconfig.spec.json",
-						"karmaConfig": "projects/ng2-daterangepicker/karma.conf.js"
+						"main": "projects/angular-daterangepicker/src/test.ts",
+						"tsConfig": "projects/angular-daterangepicker/tsconfig.spec.json",
+						"karmaConfig": "projects/angular-daterangepicker/karma.conf.js"
 					}
 				},
 				"lint": {
 					"builder": "@angular-devkit/build-angular:tslint",
 					"options": {
 						"tsConfig": [
-							"projects/ng2-daterangepicker/tsconfig.lib.json",
-							"projects/ng2-daterangepicker/tsconfig.spec.json"
+							"projects/angular-daterangepicker/tsconfig.lib.json",
+							"projects/angular-daterangepicker/tsconfig.spec.json"
 						],
 						"exclude": [
 							"**/node_modules/**"
