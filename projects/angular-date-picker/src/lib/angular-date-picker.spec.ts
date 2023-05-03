@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DaterangepickerComponent } from './angular-daterangepicker.component';
+import { DaterangepickerComponent } from './angular-date-picker.component';
 
 describe('Ng2DaterangepickerComponent', () => {
   let component: DaterangepickerComponent;

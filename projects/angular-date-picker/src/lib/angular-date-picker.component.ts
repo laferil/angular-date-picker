@@ -11,7 +11,7 @@ import {
 } from '@angular/core';
 import 'daterangepicker';
 import $ from "jquery";
-import { DaterangepickerConfig } from "./angular-daterangepicker.service";
+import { DaterangepickerConfig } from "./angular-date-picker.service";
 
 @Directive({
   selector: '[daterangepicker]'

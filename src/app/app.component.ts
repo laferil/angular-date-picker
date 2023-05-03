@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import moment from 'moment';
-import { DaterangepickerConfig } from "angular-daterangepicker";
+import { DaterangepickerConfig } from "angular-date-picker";
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { DaterangepickerConfig } from "angular-daterangepicker";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-daterangepicker';
+  title = 'angular-date-picker';
 
   public chosenDate: any = {
     start: moment().subtract(12, 'month'),

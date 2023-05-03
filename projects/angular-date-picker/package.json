@@ -1,14 +1,14 @@
 {
-	"name": "angular-daterangepicker",
+	"name": "angular-date-picker",
 	"version": "3.0.1",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/evansmwendwa/angular-daterangepicker"
+		"url": "git+https://github.com/laferil/angular-date-picker"
 	},
 	"bugs": {
-		"url": "https://github.com/evansmwendwa/angular-daterangepicker/issues"
+		"url": "https://github.com/laferil/angular-date-picker/issues"
 	},
-	"homepage": "https://github.com/evansmwendwa/angular-daterangepicker#readme",
+	"homepage": "https://github.com/laferil/angular-date-picker#readme",
 	"license": "MIT",
 	"dependencies": {
 		"daterangepicker": "^3.0.5",

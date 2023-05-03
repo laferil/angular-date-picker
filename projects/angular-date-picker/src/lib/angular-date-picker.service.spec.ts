@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { DaterangepickerConfig } from './angular-daterangepicker.service';
+import { DaterangepickerConfig } from './angular-date-picker.service';
 
 describe('DaterangepickerService', () => {
   let service: DaterangepickerConfig;

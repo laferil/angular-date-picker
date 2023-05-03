@@ -1,21 +1,13 @@
-angular-daterangepicker
+angular-date-picker
 -------------------
-
-![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/angular-daterangepicker/master/projects/angular-daterangepicker/assets/screen-shot.png)
-
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
-
-## Version 3.0.0 adds support for Angular 9.0 Ivy compiler
-
-I have not made efforts to test earlier versions of angular with version 3.x of this package but it should still work.
 
 ### Installation
 
 Use your preferred package manager
 ```
-npm install angular-daterangepicker
-yarn add angular-daterangepicker
-ng add angular-daterangepicker
+npm install angular-date-picker
+yarn add angular-date-picker
+ng add angular-date-picker
 ```
 
 #### peerDependencies
@@ -46,7 +38,7 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 ```json
 {
   "styles": [
-    "node_modules/angular-daterangepicker/assets/daterangepicker.css"
+    "node_modules/angular-date-picker/assets/daterangepicker.css"
   ],
   "scripts": [
     "node_modules/jquery/dist/jquery.min.js"
@@ -58,7 +50,7 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 Import the `Daterangepicker` module in your application module
 
 ``` javascript
-import { Daterangepicker } from 'angular-daterangepicker';
+import { Daterangepicker } from 'angular-date-picker';
 
 @NgModule({
     imports: [Daterangepicker]
@@ -109,7 +101,7 @@ export class AppComponent {
 You can pass global settings that can be overloaded by the `options` object in the daterangepicker instances. Use the `DaterangepickerConfig` service to do so. The service provider is set in the daterangepicker module.
 
 ``` javascript
-import { DaterangepickerConfig } from 'angular-daterangepicker';
+import { DaterangepickerConfig } from 'angular-date-picker';
 
 @Component({
     selector:'my-app',
@@ -132,7 +124,7 @@ You can programmatically update the `startDate` and `endDate` in the picker usin
 
 ``` javascript
 import { Component, AfterViewInit, ViewChild  } from '@angular/core';
-import { DaterangePickerComponent } from 'angular-daterangepicker';
+import { DaterangePickerComponent } from 'angular-date-picker';
 
 @Component({
     selector:'my-app',
@@ -238,15 +230,15 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Build Package
 
-Run `ng build angular-daterangepicker` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build angular-date-picker` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build angular-daterangepicker`, go to the dist folder `cd dist/angular-daterangepicker` and run `npm publish`.
+After building your library with `ng build angular-date-picker`, go to the dist folder `cd dist/angular-date-picker` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test angular-daterangepicker` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test angular-date-picker` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 
