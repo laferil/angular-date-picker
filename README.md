@@ -1,14 +1,6 @@
 angular-daterangepicker
 -------------------
 
-![Daterange Picker](https://raw.githubusercontent.com/evansmwendwa/angular-daterangepicker/master/projects/angular-daterangepicker/assets/screen-shot.png)
-
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
-
-## Version 3.0.0 adds support for Angular 9.0 Ivy compiler
-
-I have not made efforts to test earlier versions of angular with version 3.x of this package but it should still work.
-
 ### Installation
 
 Use your preferred package manager
