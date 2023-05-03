@@ -7,4 +7,4 @@ import { DaterangepickerComponent } from './angular-date-picker.component';
   ],
   exports: [DaterangepickerComponent]
 })
-export class Daterangepicker { }
+export class AngularDatePicker { }

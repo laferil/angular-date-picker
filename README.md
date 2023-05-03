@@ -46,14 +46,14 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 }
 ```
 
-### Import Daterangepicker Module
-Import the `Daterangepicker` module in your application module
+### Import AngularDatePicker Module
+Import the `AngularDatePicker` module in your application module
 
 ``` javascript
-import { Daterangepicker } from 'angular-date-picker';
+import { AngularDatePicker } from 'angular-date-picker';
 
 @NgModule({
-    imports: [Daterangepicker]
+    imports: [AngularDatePicker]
 })
 
 ```
@@ -118,7 +118,7 @@ export class AppComponent {
 }
 ```
 
-## Daterangepicker methods
+## AngularDatePicker methods
 
 You can programmatically update the `startDate` and `endDate` in the picker using the `setStartDate` and `setEndDate` methods. You can access the Date Range Picker object and its functions and properties through the `datePicker` property of the directive using `@ViewChild`.
 
@@ -142,7 +142,7 @@ export class AppComponent {
 }
 ```
 
-## Using Daterangepicker Events
+## Using AngularDatePicker Events
 
 You can bind to the events fired by the daterangepicker. All events will emit an object containing the event fired and the datepicker object.
 
@@ -211,7 +211,7 @@ Notes
 * This component was made in the early days of transitioning from JQuery to Angular 2.0 You might want to consider using more modern alternatives
 * Though this package still uses JQuery and Bootstrap it has been updated to support Angular 9 in 2020 (I have not made efforts to test earlier versions of Angular with version 3.0)
 * If your project is not using JQuery for other features this date picker might not be the best option for your project
-* This package ports the original [Daterangepicker](http://www.daterangepicker.com) by [Dan Grossman](https://github.com/dangrossman) for use in Angular. Angular 9 support starts with `Version 3.x` of this package
+* This package ports the original [AngularDatePicker](http://www.daterangepicker.com) by [Dan Grossman](https://github.com/dangrossman) for use in Angular. Angular 9 support starts with `Version 3.x` of this package
 
 Contributing
 ------------

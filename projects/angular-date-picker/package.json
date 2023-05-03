@@ -1,6 +1,6 @@
 {
-	"name": "angular-date-picker",
-	"version": "3.0.1",
+	"name": "@laferil/angular-date-picker",
+	"version": "1.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/laferil/angular-date-picker"

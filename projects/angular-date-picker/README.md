@@ -46,14 +46,14 @@ Latest version does not require Bootstrap. You can also skip this and copy the c
 }
 ```
 
-### Import Daterangepicker Module
-Import the `Daterangepicker` module in your application module
+### Import AngularDatePicker Module
+Import the `AngularDatePicker` module in your application module
 
 ``` javascript
-import { Daterangepicker } from 'angular-date-picker';
+import { AngularDatePicker } from 'angular-date-picker';
 
 @NgModule({
-    imports: [Daterangepicker]
+    imports: [AngularDatePicker]
 })
 
 ```
@@ -118,7 +118,7 @@ export class AppComponent {
 }
 ```
 
-## Daterangepicker methods
+## AngularDatePicker methods
 
 You can programmatically update the `startDate` and `endDate` in the picker using the `setStartDate` and `setEndDate` methods. You can access the Date Range Picker object and its functions and properties through the `datePicker` property of the directive using `@ViewChild`.
 
@@ -142,7 +142,7 @@ export class AppComponent {
 }
 ```
 
-## Using Daterangepicker Events
+## Using AngularDatePicker Events
 
 You can bind to the events fired by the daterangepicker. All events will emit an object containing the event fired and the datepicker object.
 
