@@ -62,19 +62,19 @@
 				},
 				"serve": {
 					"builder": "@angular-devkit/build-angular:dev-server",
-					"options": {
-						"browserTarget": "angular-date-picker:build"
+          "options": {
+            "buildTarget": "angular-date-picker:build"
 					},
 					"configurations": {
-						"production": {
-							"browserTarget": "angular-date-picker:build:production"
+            "production": {
+              "buildTarget": "angular-date-picker:build:production"
 						}
 					}
 				},
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
-					"options": {
-						"browserTarget": "angular-date-picker:build"
+          "options": {
+            "buildTarget": "angular-date-picker:build"
 					}
 				},
 				"test": {
