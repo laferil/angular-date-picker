@@ -3,11 +3,8 @@ angular-date-picker
 
 ### Installation
 
-Use your preferred package manager
 ```
-npm install angular-date-picker
-yarn add angular-date-picker
-ng add angular-date-picker
+npm install @laferil/angular-date-picker
 ```
 
 #### peerDependencies
