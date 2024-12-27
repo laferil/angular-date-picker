@@ -9,7 +9,7 @@ import {
   ElementRef,
   KeyValueDiffers
 } from '@angular/core';
-import 'daterangepicker';
+import '@laferil/daterangepicker';
 import $ from "jquery";
 import { DaterangepickerConfig } from "./angular-date-picker.service";
 

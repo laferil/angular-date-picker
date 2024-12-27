@@ -46,3 +46,4 @@ testem.log
 Thumbs.db
 *.tgz
 /.angular
+/projects/angular-date-picker/node_modules
