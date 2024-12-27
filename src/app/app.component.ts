@@ -3,9 +3,10 @@ import moment from 'moment';
 import { DaterangepickerConfig } from "angular-date-picker";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    standalone: false
 })
 export class AppComponent {
   title = 'angular-date-picker';

@@ -14,7 +14,8 @@ import $ from "jquery";
 import { DaterangepickerConfig } from "./angular-date-picker.service";
 
 @Directive({
-  selector: '[daterangepicker]'
+    selector: '[daterangepicker]',
+    standalone: false
 })
 export class DaterangepickerComponent implements AfterViewInit, OnDestroy, DoCheck {
 
